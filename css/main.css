@@ -1,5 +1,6 @@
 :root {
   --orange: #ff6119;
+  --orange2: #f58e5e;
   --secondary: #F5F5F5;
 }
 
@@ -19,14 +20,34 @@
   font-weight: bold;
   background-color: var(--orange);
   border-radius: 20px;
-  padding: 5px 25px 5px 25px;
+  padding: 6px 25px 6px 25px;
   border: none;
+}
+.customBtn:hover {
+  background-color: var(--orange2);
 }
 .customBtn a {
   color: white;
   text-decoration: none;
 }
 
+
+/* Scroll Indicator */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.progress-container {
+  width: 100%;
+  height: 5px;
+}
+.progress-bar {
+  height: 5px;
+  background: var(--orange);
+  width: 0%;
+}
 
 /* Navbar style */
 /* Remove border from toggler */
