@@ -31,6 +31,12 @@
   text-decoration: none;
 }
 
+.imgBorder {
+  background-color: white;
+  border-left: 10px solid var(--orange);
+  border-bottom: 10px solid var(--orange);
+}
+
 
 /* Scroll Indicator */
 .header {
