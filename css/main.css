@@ -37,6 +37,14 @@
   border-bottom: 10px solid var(--orange);
 }
 
+.imgWidth {
+  height: 80px;
+}
+
+.skill:hover {
+  background-color: var(--orange2);
+}
+
 
 /* Scroll Indicator */
 .header {
