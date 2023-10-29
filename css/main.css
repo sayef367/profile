@@ -45,6 +45,14 @@
   background-color: var(--orange2);
 }
 
+.iconColor{
+  color: #343a40;
+  text-decoration: none;
+}
+.iconColor:hover {
+  color: var(--orange2);
+}
+
 
 /* Scroll Indicator */
 .header {
