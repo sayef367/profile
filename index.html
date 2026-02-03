@@ -337,7 +337,7 @@
                 </div>
                 <div>
                   <h6 class="text-primary">Email</h6>
-                  <p class="text-muted">sayefulislam367@gmail.com</p>
+                  <p class="text-muted">mirsayeful367@gmail.com</p>
                 </div>
               </div>
               <div class="contact-info-item">
@@ -362,20 +362,24 @@
               </div>
             </div>
 
-            <div class="contact-form">
+            <form class="contact-form" id="contactForm">
+              <!-- FormSubmit Configuration -->
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+
               <div class="form-row">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Your Email">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
               </div>
-              <button class="btn btn-primary" style="width: 100%;">Send Message</button>
-            </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
           </div>
         </div>
       </div>
